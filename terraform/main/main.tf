@@ -11,6 +11,10 @@ provider "aws" {
   region = "eu-west-1"
 }
 
-module "variables" {
-  source = "../variables"
+# module "variables" {
+#   source = "../variables"
+# }
+
+module "tfvars-demo" {
+  source = "../tfvars-demo"
 }
