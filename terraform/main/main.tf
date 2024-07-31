@@ -19,6 +19,10 @@ provider "aws" {
 #   source = "../tfvars-demo"
 # }
 
-module "data-types" {
-  source = "../data-types"
+# module "data-types" {
+#   source = "../data-types"
+# }
+
+module "counter" {
+  source = "../count-demo"
 }
