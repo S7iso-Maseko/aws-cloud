@@ -15,6 +15,10 @@ provider "aws" {
 #   source = "../variables"
 # }
 
-module "tfvars-demo" {
-  source = "../tfvars-demo"
+# module "tfvars-demo" {
+#   source = "../tfvars-demo"
+# }
+
+module "data-types" {
+  source = "../data-types"
 }
