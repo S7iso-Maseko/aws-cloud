@@ -23,6 +23,10 @@ provider "aws" {
 #   source = "../data-types"
 # }
 
-module "counter" {
-  source = "../count-demo"
+# module "counter" {
+#   source = "../count-demo"
+# }
+
+module "conditional" {
+  source = "../conditional-expressions"
 }
