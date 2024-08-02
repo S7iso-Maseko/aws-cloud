@@ -1,0 +1,4 @@
+max()
+length()
+lookup({}, "", "")
+element([], "")
