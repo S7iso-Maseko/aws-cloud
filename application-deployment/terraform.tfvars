@@ -1,0 +1,6 @@
+ami_id        = ""
+instance_type = "t2.micro"
+key_name      = "nq-test-app-key"
+sg_name       = "nq-test-app-sg"
+subnet_az     = "eu-west-1a"
+vpc_cidr      = "10.10.0.0./16"
