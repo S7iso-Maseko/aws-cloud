@@ -7,14 +7,14 @@ resource "aws_instance" "server" {
 
   connection {
     type        = "ssh"
-    user        = "sfiso"
+    user        = "terra"
     private_key = file("C://Users//Lenovo//.ssh//id_rsa")
     host        = self.public_ip
   }
 
   provisioner "file" {
     source      = "../Flask/app.py"
-    destination = "/home/sfiso/app.py"
+    destination = "/home/terra/app.py"
   }
 
   provisioner "remote-exec" {
@@ -22,7 +22,7 @@ resource "aws_instance" "server" {
       "echo 'Hello from the remote instance'",
       "sudo apt update -y",                  
       "sudo apt-get install -y python3-pip",
-      "cd /home/sfiso",
+      "cd /home/terra",
       "sudo pip3 install flask",
       "sudo python3 app.py",
     ]
