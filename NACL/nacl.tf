@@ -14,7 +14,7 @@ resource "aws_network_acl" "nacl" {
     protocol = "tcp"
     rule_no = 99
     action = "deny"
-    cidr_block = "197.184.177.230/32"
+    cidr_block = "197.0.0.230/32"
     from_port = 80
     to_port = 80
   }
