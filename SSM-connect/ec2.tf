@@ -10,6 +10,8 @@ resource "aws_instance" "vm" {
 
   tags = {
     Name = "nqs-instance"
+
+    # VPC
   }
 }
 
