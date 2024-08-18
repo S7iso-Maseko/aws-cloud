@@ -14,5 +14,3 @@ resource "aws_instance" "vm" {
     # VPC & OO
   }
 }
-
-#2: Deploying cloud infrastructure using Terrafrom and the AWS console, to show a basic understanding of how it works. I have setup digital twins in the cloud, using a VPC, and a Windows EC2 instance -	This allowed me and my team to test products that would be sent to	clients in an environment similar to the one they have, giving us a huge	overview of what issues they might face before sending it to them.
