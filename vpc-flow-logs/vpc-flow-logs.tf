@@ -4,3 +4,5 @@ resource "aws_flow_log" "vpc_fl" {
   traffic_type         = "ALL"
   vpc_id               = aws_vpc.custom_vpc.id
 }
+
+# Just to commit something
